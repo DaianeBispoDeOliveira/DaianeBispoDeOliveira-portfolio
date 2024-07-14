@@ -1,0 +1,22 @@
+/* edição dos itens do menu */
+
+.nav-itens{
+    list-style: none; /*tirar os marcados (bolinhas) do lado dos itens da lista */
+    display: flex; /* para os itens ficar um ao lado do outro */
+}
+
+.nav-itens> li>a { /* edição dos itens dentro do li */
+    padding-left: 20px; /* espaçamento entre os intens */
+    color: #202020;
+    text-decoration: none; /*tirar as linhas em baixo dos links */
+    font-weight: 400;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around; 
+    margin-top:22px ; /* para os itens não ficarem grudados na tela de cima */
+    align-items: center; /*centralizar a parte dos links*/
+    font-family: "Poppins", sans-serif; /* estilo de fonte do texto */
+    color: #202020; /*cor do texto*/
+}

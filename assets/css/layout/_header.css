@@ -1,0 +1,36 @@
+/* edição do header*/
+
+
+.about-us {
+   margin-top: 170px; /*itens não ficarem grudados no topo*/
+   
+}
+
+.container{ 
+    display: flex;
+    max-width: 1400px;
+    justify-content: space-around; 
+    margin: auto;
+   
+}
+
+.img-about>img{
+    width: 20rem; /* diminuir o tamanho da img */
+     /*border-radius: 10px; colocar borda na img */
+  /*  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;*/
+    margin-right: 7rem; /* adicionar espaço à direita da imagem */
+    margin-top: -20px;
+}
+
+.text-about{
+    font-family: "Poppins", sans-serif; /* estilo de fonte do texto */
+}
+
+.about-text{
+    margin-top: 10px;
+    margin-bottom: 30px; /*Adicionar espaço inferior entre itens da lista*/
+}
+
+.divisao{
+    padding: 100px;
+}

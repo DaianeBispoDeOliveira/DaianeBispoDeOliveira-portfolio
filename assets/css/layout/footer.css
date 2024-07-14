@@ -1,0 +1,163 @@
+/*Roda pé do site (footer)*/
+
+/**testes
+:root{
+    --color-neutral-0: #0e0c0c;
+    --color-neutral-10: #171717;
+    --color-neutral-30: #a8a20e;
+    --color-neutral-40: #f5f5f5; 
+} */
+
+
+footer{
+    width: 100%; /*largura do roda pé*/
+    
+}
+
+.footer-link{
+    text-decoration: none; 
+}
+
+
+#footer_content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 3rem 3.5rem;
+    
+}
+
+#footer_contacts>h1{
+    margin-bottom: 0.75rem;
+    margin-left: 150px;
+    font-size: 20px;
+}
+
+#footer_social_midia{
+    display: flex;
+    gap: 2rem; /*espaçamento entre os icones*/
+    margin-top: 1.5rem;
+    margin-left:150px;
+   
+    
+}
+
+#footer_social_midia .footer-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.4rem; /*altura*/
+    width: 2.5rem; /*largura*/
+    border-radius: 50%;
+    transform-origin: 0.4s;
+}
+
+#footer_social_midia .footer-link i{
+    font-size: 1.25rem; /*tamanho do icones*/
+}
+#footer_social_midia .footer-link:hover{
+    opacity: 0.8;
+}
+
+
+/*aplicar cor nos icones*/
+
+#instagram{
+    background: linear-gradient(#7f37c9, #ff2992, #ff9807);
+}
+#instagram i {
+    background: linear-gradient(#7f37c9, #ff2992, #ff9807);
+    background-clip: text;
+}
+
+#Linkedin{
+    background-color: #4267b3;
+}
+
+#Linkedin i {
+    color: #4267b3;
+    background-clip: text;
+    color: transparent;
+}
+
+#GitHub{
+    background-color: #171717;
+}
+
+#GitHub i {
+    color: #171717;
+    background-clip: text;
+    color: transparent;
+
+}
+#Whatsapp{
+    background-color: #25d366;
+}
+#Whatsapp i {
+    color: #25d366;
+    background-clip: text;
+    color: transparent;
+}
+
+
+
+/*Inputs*/
+
+#input_group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Espaço entre os elementos */
+}
+
+#input_group input {
+    padding: 10px;
+    font-size: 16px;
+    width: 70%; /* Tamanho das caixas de nome e email */
+   
+}
+
+#input_group textarea {
+    padding: 10px;
+    font-size: 16px;
+    width: 70%;
+    height: 100px; /* Altura da caixa de mensagem */
+}
+
+#input_group button {
+    padding: 10px;
+    font-size: 16px; 
+    width: 33%;
+    background-color: #007BFF; /*cor do botão*/
+    color: white; /*cor do texto do botão*/
+    border: none; /*remover a borda preta em volta do botão*/
+    cursor: pointer; /*muda para uma mão apontando ao passar sobre o link */
+    align-items: center; 
+
+}
+
+#input_group button:hover {
+    background-color: #0056b3;
+}
+
+#send-button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+/*copyright*/
+
+#footer_copyrigth{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 15px;
+
+}
+
+
+

@@ -1,0 +1,6 @@
+/*background = img da página */
+
+*{
+    background-color:rgb(186, 180, 193); /*cor do fundo da página*/
+    font-family: "Poppins", sans-serif; /* estilo da fonte do texto */
+}

@@ -1,0 +1,144 @@
+/*Edição da section (projetos/formação/cards)*/
+
+/*Formação*/
+.title1 {
+    margin-top: 40px; /* Ajuste o valor conforme necessário */
+   
+}
+
+
+.education {
+    text-align: center;
+    margin: 20px;
+}
+
+.education-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.center-img {
+    width: 70px; /* Tamanho das imagens */
+    height: 70px; /* Tamanho das imagens */
+    transition: transform 0.3s;
+}
+
+.education-item p {
+    margin-top: 3px;
+    font-size: 14px;
+}
+
+.center-img:hover {
+    transform: rotate(360deg); /* Efeito de rotação ao passar o mouse */
+}
+
+
+/*skills*/
+
+.title1{
+    margin: 20px;
+}
+
+.languages {
+    text-align: center;
+    margin: 20px;
+}
+
+.language-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Espaço entre os itens */
+}
+
+.language {
+    flex: 0 0 auto; /* Evita que os itens cresçam e mantém a largura automática */
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.language img {
+    width: 50px; /* Tamanho das imagens */
+    height: 50px; /* Tamanho das imagens */
+    transition: transform 0.3s; 
+}
+
+.language p {
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.language:hover {
+    transform: scale(1.1); /* Efeito de zoom ao passar o mouse */
+}
+
+.language img:hover {
+    transform: rotate(360deg); /* Efeito de rotação ao passar o mouse */
+}
+
+
+/* CARDS*/
+
+.main{
+    display: flex; /* os itens ficarem um ao lado do outro*/
+    justify-content: center; /*ficar centralizado*/
+}
+
+.card{
+    margin: 50px; /*espaço um ao lado */
+    background-color: rgb(230, 230, 230);
+    color: #202020;
+    width: 350px; /*tamanho dos Cards vertical*/
+    height: 320px ;/*tamanho dos Cards horizantal*/
+    text-align: center;/*texto do card centralizado*/
+    border-radius: 10px;/*bordas dos Cards*/
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    background-color: rgb( 186, 180, 193);
+
+}
+
+.card:hover{ /*Define o estilo do card quando o mouse passa sobre ele*/
+    transition: 0.5s; /* transição suave de 0,5 segundos a qualquer transformação aplicada ao card.*/
+    transform: translateY(-10px); /* Move o card 10 pixels para cima translateY para mover na vertical*/
+    transform: translateY(-10px); /*translateX para mover na horizontal*/
+    
+ 
+}
+
+
+.card>h1{
+    font-size: 17px; /*tamanho da fonte do  texto*/
+    padding-top:10px ;
+}
+
+.card>p{
+    font-size: 14px; /*tamanho da fonte do  texto*/
+    padding:10px 40px;/*espaço do texto em cima em baixo e dos lados*/
+}
+
+.btn{
+    font-size: 14px; /*tamanho da fonte do  texto*/
+    padding:10px 40px;/*espaço do testo em cima em baixo e dos lados*/
+    border: none; /*remover a borda preta em volta do botão*/
+    background-color:#3c3b3b ;/*cor do botão*/
+    color: #fff; /*cor do texto do botão*/
+    border-radius: 20px;/*borda do botão*/
+    font-weight: 600;
+    transition: 0.5s background;
+    cursor: pointer; /*muda para uma mão apontando ao passar sobre o link */
+   text-decoration: none; /*excluir as linhas dos links*/
+   
+}
+
+/*efeito do botão*/
+.btn:hover{
+    transition: 0.5s background; 
+    background-color:#514e4e ; /*cor do botão ao passar o mouse em cima*/
+}
+
+.card>img{
+    width: 100%;
+    border-top-left-radius:10px ;
+    border-top-right-radius:10px ;
+}
+
